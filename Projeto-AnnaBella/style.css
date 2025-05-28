@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #d2d2c1 url('../img/background.jpg') no-repeat;
+    color: #333;
+    
+}
+
+img {
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#principal {
+    width: 900px;
+    margin: 0 auto;
+    
+}
+
+#menu {
+    background: #c5c5b2;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#conteudo {
+    background: #e8e8d9;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#rodape {
+    text-align: center;
+    background: #c5c5b2;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+a {
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    
+    color: #828271;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+#menu nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+
+
+p {
+    letter-spacing: 0.02rem;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    color: #333;
+    margin: 1rem;
+}
+
+
+
+
+
+/* Biografia CSS */
+
+.flex-item-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.flex-item-right img {
+    width: 560px;
+    height: 300px;
+    margin: auto;
+    
+}
+
+.flex-item-right p {
+    margin-left: 2rem;
+    font-size: 1.1rem;
+
+}
+
+.flex-item-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.flex-item-left img {
+    width: 560px;
+    height: 300px;
+    margin: auto;
+}
+
+.flex-item-left p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2rem;
+    font-size: 1.1rem;
+}
+
+#contato-info {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;  
+    transform: scale(1.05);
+}
+
+a:hover {
+    color: #333;
+    text-decoration: underline;
+}
